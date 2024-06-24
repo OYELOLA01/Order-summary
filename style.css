@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(214, 255, 255);
+    height: 100%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.main2{
+    text-align: center;
+    margin: auto;
+    padding: 18px 25px;
+}
+h3{
+    font-size: 20px;
+    padding: 3px 15px;
+}
+.p{
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(155, 163, 191);
+    padding: 1px 50px;
+}
+.annual{
+    display: flex;
+    background-color:rgb(248, 249, 254) ;
+    border-radius: 10px;
+    align-items: center;
+    padding: 14px 25px;
+}
+a{
+    padding: 20px 50px;
+    margin-left: 4rem;
+    font-weight: 900;
+}
+button{
+    background-color: rgb(56, 42, 225);
+    padding: 13px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.Cancel{
+    color: rgb(123, 132, 155);
+    margin-top: 10px;
+}
